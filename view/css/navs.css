@@ -1,0 +1,51 @@
+nav {
+    background-image: url(../imagens/fundoLogin.jpg);
+    background-size: cover;
+}
+
+.logo {
+    width: 120px;
+    height: 60px;
+}
+
+.dropdown-menu {
+    background-image: url(../imagens/fundoLogin.jpg);
+    background-size: cover;
+}
+
+.nav-item a:hover {
+    color: black !important;
+}
+
+.dropdown-menu a:hover {
+    background-color: rgb(140, 56, 219);
+}
+
+nav li {
+    margin-right: 10px;
+}
+
+ul li a {
+    font-size: 18px;
+    text-shadow: 2px 1px 2px gray;
+    color: white!important;
+}
+
+nav a img {
+    height: 80px;
+}
+
+.navButton {
+    background-color: rgba(0, 0, 0, .4);
+    border-color: white;
+}
+
+.navButton:hover {
+    background-color: rgba(0, 0, 0, .6);
+    border-color: white;
+}
+
+.navButton:active {
+    background-color: rgba(0, 0, 0, .6) !important;
+    border-color: black !important;
+}
