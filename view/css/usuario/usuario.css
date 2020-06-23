@@ -8,20 +8,8 @@ main {
 }
 
 h1 {
-    margin-top: 20px;
-    margin-bottom: 65px;
+    margin-top: 10px;
     text-shadow: 2px 1px 2px white;
     color: rgb(140, 56, 219);
     font-size: 24px;
-}
-
-.topicoTabela {
-    margin-bottom: 5px;
-    text-shadow: 2px 1px 2px white;
-    color: rgb(140, 56, 219);
-    font-size: 24px;
-}
-
-.msg {
-    margin-top: 150px;
 }

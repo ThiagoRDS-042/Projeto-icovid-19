@@ -5,7 +5,7 @@
     <?php
     require_once('../head.php');
     ?>
-    <title>Cadastro de Hospital2</title>
+    <title>Cadastro de Hospital</title>
 </head>
 
 <body>
@@ -18,9 +18,7 @@
         require_once('formulario.php');
         ?>
     </main>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="../../controller/verificarCampo/verificarEmailHospital.js"></script>
-    <script src="../../controller/verificarCampo/verificarCnes.js"></script>
+
     <?php
     require_once('../footer.php');
     ?>

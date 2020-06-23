@@ -46,16 +46,16 @@ if (isset($_POST['salvar']) and $_POST['nome'] != null and $_POST['email'] != nu
         header("location:../../view/hospital/cadastroHospital.php");
     }
 } else if (isset($_GET['excluir'])) {
+
     $id = $_GET['excluir'];
     $conexao->query("DELETE FROM hospital WHERE hospitalID = '$id'") or die($conexao->error);
-
+    exibirMsg("Conta Excluida com Sucesso!", "success");
     require_once('../../controller/autenticar/sair.php');
-} else if(isset($_POST['editar']) AND $_POST['senha'] == null){
+} else if (isset($_POST['editar']) and $_POST['senha'] == null) {
 
     exibirMsg("Atualização Falhou, Por Favor não se Esqueça de Preencher o Campo de Senha!", "danger");
     header("location:../../view/hospital/hospital.php");
-
-}else if (isset($_POST['editar'])) {
+} else if (isset($_POST['editar'])) {
     $id = $_POST['id'];
     $nomeHospital = $_POST['nome'];
     $emailHospital = $_POST['email'];
@@ -72,8 +72,7 @@ if (isset($_POST['salvar']) and $_POST['nome'] != null and $_POST['email'] != nu
     $conexao->query("UPDATE endereco_hospital SET endereco = '$endereco', cidade = '$cidade', num = '$num', estado = '$estado', bairro = '$bairro' WHERE hospital = '$id'") or die($conexao->error);
     exibirMsg("Atualizado com Sucesso!", "success");
     header("location:../../view/hospital/hospital.php");
-   
-}else {
+} else {
     exibirMsg("Preencha Todos os Campos Obrigatórios!", "warning");
     header("location:../../view/hospital/cadastroHospital.php");
 }

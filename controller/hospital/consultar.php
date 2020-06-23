@@ -16,7 +16,7 @@ if (isset($_GET['consultar'])) {
     $hospital = $conexao->query("SELECT * FROM hospital WHERE hospitalID = '$id'") or die($conexao->error);
     $enderecoHospital = $conexao->query("SELECT * FROM endereco_hospital WHERE hospital = '$id'") or die($conexao->error);
 
-    if ($hospital->num_rows == 1 AND $enderecoHospital->num_rows == 1) {
+    if ($hospital->num_rows == 1 and $enderecoHospital->num_rows == 1) {
         $hospital = $hospital->fetch_array();
         $enderecoHospital = $enderecoHospital->fetch_array();
         $id = $hospital['hospitalID'];
@@ -30,6 +30,5 @@ if (isset($_GET['consultar'])) {
         $endereco = $enderecoHospital['endereco'];
         $num = $enderecoHospital['num'];
     }
-
 }
 ?>

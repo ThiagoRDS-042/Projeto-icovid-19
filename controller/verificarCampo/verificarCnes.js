@@ -8,8 +8,8 @@ cnes.keyup(function buscar() {
         data: {
             "cnes": cnes.val()
         },
-        success: function(data) {
-            $("#verificarCnes").html(data);
+        success: function(msg) {
+            $("#verificarCnes").html(msg);
         }
     });
 });

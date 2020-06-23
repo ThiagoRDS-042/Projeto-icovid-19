@@ -8,8 +8,8 @@ email.keyup(function buscar() {
         data: {
             "email": email.val()
         },
-        success: function(data) {
-            $("#verificarEmail").html(data);
+        success: function(msg) {
+            $("#verificarEmail").html(msg);
         }
     });
 });

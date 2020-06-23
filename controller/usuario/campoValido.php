@@ -9,15 +9,15 @@ if (isset($_POST['email'])) {
     $hospital = $conexao->query("SELECT * FROM hospital WHERE emailHospital = '$email'");
 
     if ($usuario->num_rows > 0) {
-        echo '<font color= "red">E-mail Inválido!</font>';
+        echo '<font color= "#A61243"><b>E-mail Inválido!</b></font>';
     }else if($hospital->num_rows > 0){
-        echo '<font color= "red">E-mail Inválido!</font>';
+        echo '<font color= "#A61243"><b>E-mail Inválido!</b></font>';
     } else if($email == null){
-        echo '<font color= "red">E-mail Inválido!</font>';
+        echo '<font color= "#A61243"><b>E-mail Inválido!</b></font>';
     } else if (!strpos($email, '@')) {
-        echo '<font color= "yellow">Valide com: "@".</font>';
+        echo '<font color= "yellow"><b>Valide com: "@".</b></font>';
     } else {
-        echo '<font color= "black">E-mail Válido!</font>';
+        echo '<font color= "#181285"><b>E-mail Válido!</b></font>';
     }
 }
 
@@ -28,11 +28,11 @@ if (isset($_POST['numSus'])) {
     $usuario = $conexao->query("SELECT * FROM usuario WHERE numSus = '$numSus'");
 
     if ($usuario->num_rows > 0) {
-        echo '<font color= "red">Nº do SUS Inválido!</font>';
+        echo '<font color= "#A61243"><b>Nº do SUS Inválido!</b></font>';
     }else if(strlen($numSus) == 15){
-        echo '<font color= "black">Nº do SUS Válido!</font>';
+        echo '<font color= "#181285"><b>Nº do SUS Válido!</b></font>';
     } else {
-        echo '<font color= "red">Deve Conter 15 Digitos!</font>';
+        echo '<font color= "#A61243"><b>O Campo Deve Conter 15 Digitos!</></font>';
     }
 }
 

@@ -8,8 +8,8 @@ numSus.keyup(function buscar() {
         data: {
             "numSus": numSus.val()
         },
-        success: function(data) {
-            $("#verificarNumSus").html(data);
+        success: function(msg) {
+            $("#verificarNumSus").html(msg);
         }
     });
 });

@@ -1,9 +1,4 @@
-<?php
-require_once('../../controller/autenticar/verificarHospitalLogado.php');
-require_once('../head.php');
-?>
 <link rel="stylesheet" href="/projeto-icovid-19/view/css/hospital/formulario.css">
-<title>Cadastro de Hospital</title>
 
 <?php
 require_once('../../controller/hospital/consultar.php');
