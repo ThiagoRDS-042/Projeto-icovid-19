@@ -1,0 +1,32 @@
+thead {
+    background-image: url(/projeto-icovid-19/view/imagens/fundoLogin.jpg);
+}
+
+tbody {
+    background-image: url(/projeto-icovid-19/view/imagens/fundoLogin.jpg);
+    background-position: center;
+}
+
+table {
+    border: solid 2px white;
+    color: whitesmoke !important;
+}
+
+#tabela {
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 300px !important;
+}
+
+th,
+td {
+    border-right: solid 1px white !important;
+}
+
+#relatorio img {
+    cursor: pointer !important;
+}
+
+p {
+    font-size: 12px;
+}

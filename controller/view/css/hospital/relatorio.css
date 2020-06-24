@@ -1,0 +1,145 @@
+body {
+    background-color: #e9ecef;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    border-top: solid 1px transparent;
+    background-color: white;
+    height: 1110px;
+    width: 50%;
+    margin: 3% 0 3% 25%;
+    border: 1px solid black;
+}
+
+.container {
+    padding: 30px;
+}
+
+h1 {
+    margin-top: 50px;
+    text-shadow: 2px 1px 2px white;
+    color: blue;
+    font-size: 24px;
+}
+
+h2 {
+    text-shadow: 2px 1px 2px white;
+    color: blue;
+    font-size: 20px;
+    margin: 10px 0 0 10px;
+    display: inline-block;
+}
+
+p {
+    display: inline-block;
+}
+
+.nome,
+.email,
+.info {
+    border-top: solid 1px black;
+}
+
+.info {
+    border-bottom: solid 1px black;
+}
+
+.telefone {
+    display: inline-block;
+}
+
+.idade {
+    margin-left: 20%;
+    display: inline-block;
+}
+
+.endereco {
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+}
+
+.blocoEsquerdo {
+    float: left;
+}
+
+.blocoDireito {
+    margin-right: 10px;
+    float: right;
+}
+
+.blocoCentral {
+    margin-left: 310px;
+}
+
+.table {
+    border: solid 1px black;
+    width: 50%;
+    margin: 50px 0 0 25%;
+}
+
+tr,
+td,
+th {
+    border-top: solid 1px black !important;
+    border-bottom: solid 1px black !important;
+}
+
+.sintomas {
+    margin: 0;
+}
+
+.obs {
+    margin: 30px 0 0 10px;
+    font-size: 14px;
+}
+
+.inline-group {
+    margin-top: 20px;
+    width: 13%;
+}
+
+.verde {
+    float: left;
+    margin-left: 2%;
+}
+
+.amarelo {
+    margin-left: 14%;
+    width: 13%;
+    display: inline-block;
+    background-color: yellow;
+}
+
+.laranja {
+    margin: 0 14% 0 14%;
+    width: 13%;
+    display: inline-block;
+}
+
+.laranja button {
+    background-color: #FF6100;
+}
+
+.laranja button:hover {
+    background-color: rgba(224, 93, 11, 0.8);
+}
+
+.vermelho {
+    width: 13%;
+    float: right;
+    margin-right: 2%;
+}
+
+.inline-group button {
+    width: 100% !important;
+}
+
+.infoBotoes {
+    margin-top: 660px;
+    float: left;
+}
+
+.infoBotoes img {
+    width: 372px;
+}

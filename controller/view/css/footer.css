@@ -1,0 +1,31 @@
+footer {
+    height: 150px;
+    background-image: url(../imagens/fundoLogin.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+footer p {
+    text-shadow: 2px 1px 2px gray;
+    display: inline;
+    line-height: 150px;
+    margin: 0;
+}
+
+.imgEsquerda img {
+    height: 150px;
+}
+
+.imgEsquerda {
+    float: left;
+    margin-left: 20px;
+}
+
+.imgDireita {
+    float: right;
+    margin-top: 25px;
+}
+
+.imgDireita img {
+    height: 100px;
+}

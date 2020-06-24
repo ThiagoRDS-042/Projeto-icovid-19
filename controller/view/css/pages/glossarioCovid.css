@@ -1,0 +1,26 @@
+body {
+    background-color: #e9ecef;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.glossario {
+    width: 70%;
+    margin: 20px 0 0 15%;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.glossario h1 {
+    text-shadow: 2px 1px 2px gray;
+    font-size: 30px;
+}
+
+.fonte {
+    margin: 0 0 0 80%;
+    line-height: 18px;
+    font-size: 12px;
+}
+
+.fonte a {
+    color: black;
+}
